@@ -1,13 +1,15 @@
 <?php
-$num = 20;
-$txt = "<br>esto es un texto";
-$boleano = false;
-$edad = "<br>su edad es: 20";
+$int = 10;
+$float = 10.2;
+$boleano = true;
+$numeros= array("1<br>","2<br>","3<br>");
 
-echo $num;
-echo $txt;
+echo $int;
+echo "<br>";
+echo $float;
+echo "<br>";
 echo $boleano;
-echo $edad;
-
+echo "<br>";
+echo $numeros[2];
 
 ?>
